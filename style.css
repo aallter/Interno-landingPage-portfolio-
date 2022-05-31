@@ -1,0 +1,389 @@
+body {
+    background-color: #fff;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'DM Serif Display', serif;
+}
+h5{
+    font-weight: 400;
+    font-size: 25px;
+}
+h2{
+    font-weight: 400;
+    font-size: 47px;
+}
+p,span{
+    font-family: 'Jost', sans-serif;
+    font-size: 22px;
+}
+ul{
+    padding-left: 0%;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    transition: .2s;
+  }
+  a:hover{
+    color:orange;
+    text-decoration: none;
+  }
+  a:active{
+    color:grey;
+  }
+
+li{
+    list-style: none;
+}
+/* nav style */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.menu{
+    width:50%;
+  
+    
+}
+.menu>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+.menu>ul>li{
+    padding:0% 3% 0% 3%;
+    text-align: right;
+
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* header banner*/
+
+.main-banner{
+    position: relative;
+} 
+.main-banner>img:first-child {
+  
+    width:100%;
+    height: 100vh;
+}
+.main-banner>article{
+    position: absolute;
+    top:25%;
+    left:12%;
+}
+.main-banner h1{
+    font-size:80px;
+}
+.main-banner p{
+    font-size: 22px;
+}
+.button-black{
+    box-sizing: border-box;
+    padding: 3%;
+    background: #292F36;
+    border: none;
+    border-radius: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:#fff;
+    transition: .4s;
+}
+.button-black:hover{
+    background-color: #ccc9c5;
+}
+.button-black:active{
+    background-color: #8f8b87;
+}
+.button-arrow{
+    background: #F4F0EC;
+    padding: 3%;
+    border-radius: 100px;
+    border: none;
+}
+.button-arrow:hover{
+    background-color: #ccc9c5;
+}
+.button-arrow:active{
+    background-color: #8f8b87;
+}
+.flex-class-phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* body content */
+
+/* section 1 */
+
+.flex-class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.block1>article{
+    box-sizing: border-box;
+    padding:10% 5% 10% 5%;
+    width: 33%;
+    text-align: center;
+}
+.block1>article>button{
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* section 2 */
+
+.block2>article:nth-child(2){
+    text-align: center;
+}
+.block2>article{
+    width: 50%;
+    box-sizing: border-box;
+    padding:10% 5% 10% 5%;
+}
+
+/* section 3 */
+.block3{
+    background: #F4F0EC;
+    border-radius: 70px;
+    padding:8% 5%;
+}
+.block3>h2{
+    width: 100%;
+    text-align: center;
+}
+.block3>article{
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding: 5% 3%;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.block-min{
+    padding: 5%;
+}
+
+/* section 4 */
+.block4{
+    padding: 5%;
+}
+.text>h2{
+    width: 100%;
+    text-align: center;
+}
+.text>h2+p{
+    width: 100%;
+    text-align: center;
+}
+.block4>article>article{
+    width: 50%;
+}
+.block4>article>article{
+    width: 45%;
+    padding: 2%;
+}
+.card-name{
+    justify-content: space-between !important;
+    width:100%;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.block4>article{
+    box-sizing: border-box;
+    padding: 1%;
+}
+.block4>article>article>img{
+    width: 100%;
+    text-align: center !important;
+    box-sizing: border-box;
+    padding: 1%;
+}
+.button-arrow-two{
+    background: #F4F0EC;
+    padding: 5%;
+    border-radius: 125px;
+    border: none;
+    transition:.4s;
+}
+.button-arrow-two:hover{
+    background-color: #ccc9c5;
+}
+.button-arrow-two:active{
+    background-color: #8f8b87;
+}
+
+/* section 6  */
+
+.block6{
+    background: #F4F0EC;
+    padding: 8% 5%;
+}
+.block6>article{
+    text-align: center;
+    border-right: 1px solid #CDA274 ;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.block6>article:nth-child(4){
+    border-right: none !important ;
+}
+.block6>article>h5{
+    font-size: 85px;
+    color: #CDA274;
+}
+
+/*  section 7 */
+
+.card-room{
+    width: 100%;
+    padding: 5%;
+}
+.card-room>article{
+    position: relative;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-top: 1%;
+    border: 1px solid  #E7E7E7;
+    border-radius: 62px;
+}
+
+.card-room>article>img{
+    width: 100%;
+    text-align: center;
+}
+.card-room>article>h4{
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 25px;
+}
+.card-room>article>img+button{
+    position: absolute;
+    top:50%;
+    left:10%;
+    background-color: #fff !important;
+    color: #292F36 !important;
+    padding: 3% !important;
+    transition: .4s;
+}
+.card-room>article>img+button:hover{
+    background-color: #8f8b87 !important;
+    color: #fff !important;
+}
+.card-room>article>img+button:active{
+    background-color: #63615f !important;
+    color: #fff !important;
+}
+
+/* section 8 contacts */
+
+.block-contacts{
+    text-align: center;
+    background-color: #292F36;
+    margin: 5% 10%;
+    padding: 5%;
+    border-radius: 70px;
+}
+.block-contacts>h2 , .block-contacts>p{
+    color:#fff;
+    margin-top: 1%;
+}
+.block-contacts>button{
+    background-color: #CDA274 !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+.block-contacts>button:hover{
+    background-color: #8f8b87 !important;
+    color: #fff !important;
+}
+.block-contacts>button:active{
+    background-color: #575757 !important;
+    color: #fff !important;
+}
+
+/* footer */
+
+.footer-info{
+    padding: 7%;
+    align-items: baseline !important;
+}
+.footer-info>article>ul>li{
+    padding: 5% 0%;
+}
+.social{
+    width: 70%;
+    justify-content:space-between !important;
+}
+
+/* media  */
+
+@media(max-width:480px){
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .main-banner h1 {
+        font-size: 30px;
+    }
+    .block1>article {
+        width: 100%;
+    }
+    .block2>article{
+        width: 100%;
+    }
+    .block3>article{
+        width: 100%;
+    }
+    .size-img>img{
+        display: block;
+        width: 200px;
+        padding: 5%;
+    }
+    .block4>article>article{
+        width: 100%;
+    }
+    .block6>article{
+        width: 100%;
+    }
+    .card-room>article{
+        width: 100%;
+    }
+    .card-room>article>img+button{
+        top:40%;
+    }
+    .footer-info>article{
+        width: 100%;
+        text-align: center;
+    } 
+    .social {
+        width: 100%;
+        justify-content: space-between !important;
+    }
+    .card-name>p{
+        font-size: 14px;
+    }
+    .main-banner>img:first-child {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+}
