@@ -348,18 +348,6 @@ nav{
 .block1.element-animation.element-show{
     transform: translateX(0px);
 }
-.block2.element-animation{
-    transform:translateX(-30px);
-}
-.block2.element-animation.element-show{
-    transform: translateX(0px);
-}
-.block-min.element-animation{
-    transform:translateX(-30px);
-}
-.block-min.element-animation.element-show{
-    transform: translateX(0px);
-}
 
 .block5.element-animation{
     transform:translateY(-30px);
@@ -378,8 +366,6 @@ nav{
     margin: 2rem 0;
     font-size: 3rem;
     transition: .2s;
-    
-    /* Скроем элемент в начальном состоянии */
     opacity: 0;
 }
 
