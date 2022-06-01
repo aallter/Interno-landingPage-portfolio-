@@ -333,6 +333,62 @@ nav{
     justify-content:space-between !important;
 }
 
+
+/* animation */
+
+.main-banner.element-animation{
+    transform: translateY(-20px);
+}
+.main-banner.element-animation.element-show{
+    transform: translateY(0px);
+}
+.block1.element-animation{
+    transform:translateX(-30px);
+}
+.block1.element-animation.element-show{
+    transform: translateX(0px);
+}
+.block2.element-animation{
+    transform:translateX(-30px);
+}
+.block2.element-animation.element-show{
+    transform: translateX(0px);
+}
+.block-min.element-animation{
+    transform:translateX(-30px);
+}
+.block-min.element-animation.element-show{
+    transform: translateX(0px);
+}
+
+.block5.element-animation{
+    transform:translateY(-30px);
+}
+.block5.element-animation.element-show{
+    transform: translateY(0px);
+}
+.block6.element-animation{
+    transform:translateX(-30px);
+}
+.block6.element-animation.element-show{
+    transform: translateX(0px);
+}
+
+.element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    transition: .2s;
+    
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+}
+
+.element-animation.element-show {
+    transition: .2s;
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+}
 /* media  */
 
 @media(max-width:480px){
